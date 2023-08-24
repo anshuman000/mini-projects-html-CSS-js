@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    font-size: 25vh;
+    font-weight: bold;
+    background-image: url(./resources/tropical.avif);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.frame{
+    padding: 20px;
+    width: 700px;
+    background-color: white;
+    text-align: center;
+}
